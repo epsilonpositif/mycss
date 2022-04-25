@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+:root {
+    --oblue1: #0b3e68;
+    --oblue2: #056291;
+    --oblue3: #3a7d9e;
+    --mblue1: #0d56bb;
+    --mblue2: #3a7bd5;
+    --mblue3: #00d0ff;
+    --yblue1: #1baacc;
+    --yblue2: #2dc6df;
+    --yblue3: #47d4e2;
+    --yblue4: #79e3e8;
+    --yellow1: #ff702b;
+    --yellow2: #ff952c;
+    --yellow3: #fad207;
+    --yellow4: #ffdf5a;
+    --yellow5: #FF5733;
+    --yellow6: #FFF7D6;
+    --grey: #E9E9E9;
+    --lightgrey: #f2f2f2;
+    --pink1: #a73da7;
+    --pink2: #ff42ff;
+}
+
+.text-oblue1 {
+    color: var(--oblue1);
+}
+
+.text-oblue2 {
+    color: var(--oblue2);
+}
+
+.text-oblue3 {
+    color: var(--oblue3);
+}
+
+.text-yblue1 {
+    color: var(--yblue1);
+}
+
+.text-yblue2 {
+    color: var(--yblue2);
+}
+
+.text-yblue3 {
+    color: var(--yblue3);
+}
+
+.text-yblue4 {
+    color: var(--yblue4);
+}
+
+.text-mblue1 {
+    color: var(--mblue1);
+}
+
+.text-mblue2 {
+    color: var(--mblue2);
+}
+
+.text-mblue3 {
+    color: var(--mblue3);
+}
+
+.text-yellow1 {
+    color: var(--yellow1);
+}
+
+.text-yellow2 {
+    color: var(--yellow2);
+}
+
+.text-pink1 {
+    color: var(--pink1);
+}
+
+.text-yellow3 {
+    color: var(--yellow3);
+}
+
+.text-yellow4 {
+    color: var(--yellow4);
+}
+
+.text-yellow5 {
+    color: var(--yellow5);
+}
+
+.text-yellow6 {
+    color: var(--yellow6);
+}
+
+.text-grey {
+    color: var(--grey);
+}
+
+.text-lightgrey {
+    color: var(--lightgrey);
+}
+
+.bg-oblue1 {
+    background-color: var(--oblue1);
+}
+
+.bg-oblue2 {
+    background-color: var(--oblue2);
+}
+
+.bg-oblue3 {
+    background-color: var(--oblue3);
+}
+
+.bg-pink1 {
+    background-color: var(--pink1);
+}
+
+.bg-pink2 {
+    background-color: var(--pink2);
+}
+
+.bg-yblue1 {
+    background-color: var(--yblue1);
+}
+
+.bg-yblue2 {
+    background-color: var(--yblue2);
+}
+
+.bg-yblue3 {
+    background-color: var(--yblue3);
+}
+
+.bg-yblue4 {
+    background-color: var(--yblue4);
+}
+
+.bg-mblue1 {
+    background-color: var(--mblue1);
+}
+
+.bg-mblue2 {
+    background-color: var(--mblue2);
+}
+
+.bg-mblue3 {
+    background-color: var(--mblue3);
+}
+
+.bg-yellow1 {
+    background-color: var(--yellow1);
+}
+
+.bg-yellow2 {
+    background-color: var(--yellow2);
+}
+
+.bg-yellow3 {
+    background-color: var(--yellow3);
+}
+
+.bg-yellow4 {
+    background-color: var(--yellow4);
+}
+
+.bg-yellow5 {
+    background-color: var(--yellow5);
+}
+
+.bg-yellow6 {
+    background-color: var(--yellow6);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-lightgrey {
+    background-color: var(--lightgrey);
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-lobster {
+    font-family: 'Lobster Two', cursive;
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-sans-serif {
+    font-family: sans-serif;
+}
+
+.font-serif {
+    font-family: serif;
+}
+
+.full-face {
+    height: 100vh;
+}
+
+
+/* =============================ROUNDED====================================== */
+
+.rad-5 {
+    border-radius: 5px;
+}
+
+.rad-7 {
+    border-radius: 7px;
+    ;
+}
+
+.rad-10 {
+    border-radius: 10px;
+    ;
+}
+
+.rad-12 {
+    border-radius: 12px;
+    ;
+}
+
+.rad-15 {
+    border-radius: 15px;
+    ;
+}
+
+.rad-20 {
+    border-radius: 20px;
+    ;
+}
+
+.rad-50 {
+    border-radius: 50%;
+    ;
+}
+
+.py-6 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.pt-6 {
+    padding-top: 4rem;
+}
+
+.pt-7 {
+    padding-top: 5rem;
+}
+
+.pt-8 {
+    padding-top: 6rem;
+}
+
+.mt-6 {
+    margin-top: 4rem;
+}
+
+.mt-7 {
+    margin-top: 5rem;
+}
+
+.mt-8 {
+    margin-top: 6rem;
+}
+
+.mt-9 {
+    margin-top: 7rem;
+}
+
+.my-6 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.my-7 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
+
+.mb-7 {
+    margin-bottom: 5rem;
+}
